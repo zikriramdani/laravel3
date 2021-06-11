@@ -49,7 +49,7 @@
                         </div>                
                     @else
                         @foreach ($programs as $program)
-                            <div class="col-lg-4 col-12 d-flex align-items-stretch">
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
                                 <div class="card mt-4">
                                     <a href="/donasi/{{$program->id}}">
                                     <img src="{{$program->getFoto()}}" alt="Program Images">

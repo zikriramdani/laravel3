@@ -37,7 +37,7 @@
                         </div>                
                     @else
                         @foreach ($programCategory->programs as $program)
-                            <div class="col-md-4 d-flex align-items-stretch">
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
                                 <a href="/donasi/{{$program->id}}" class="d-flex align-items-stretch">
                                     <div class="card mt-4">
                                         <img src="{{$program->getFoto()}}" alt="Program Images">

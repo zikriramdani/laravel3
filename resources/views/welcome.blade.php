@@ -49,7 +49,7 @@
         <div class="content mb-3">
                 <div class="row">
                     @foreach ($programs as $program)
-                    <div class="col-lg-4 col-md-6 pl-4 d-flex align-items-stretch">
+                    <div class="col-lg-4 col-sm-6 pl-4 d-flex align-items-stretch">
                         <div class="card">
                             <a href="/donasi/{{$program->id}}">
                             <img src="{{$program->getFoto()}}" alt="Program Image">
@@ -109,7 +109,7 @@
             <div class="content mb-3">
                     <div class="row">
                         @foreach ($programsNew as $newProgram)
-                        <div class="col-lg-3 pl-4 d-flex align-items-stretch">
+                        <div class="col-lg-3 col-sm-6 pl-4 d-flex align-items-stretch">
                             <a href="/donasi/{{$newProgram->id}}" class="d-flex align-items-stretch">
                             <div class="card">
                                 <img src="{{$newProgram->getFoto()}}" alt="Program Image">
