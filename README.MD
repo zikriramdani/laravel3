@@ -43,8 +43,8 @@ Cara menjalankan Aplikasi :
 <h5>Account Admin : <h5>
 username : admin@mail.com<br>
 password : 12345678
-
-Note: Di database, di tabel user ada field "role", valuenya ubah jadi 1
+<br>
+Note: Di database, di tabel user ada field "role", valuenya 1
 
 <h5>Account User : <h5>
 username : user@mail.com<br>
